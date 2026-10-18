@@ -1,0 +1,27 @@
+.cards img{
+    width: 300px;
+    height: 300px;
+}
+
+.cards{
+    width: 300px;
+    height: 400px;
+    padding: 20;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+body{
+    text-align: center;
+}
+
+@media (max-width:500px) and (orientation: portrait){
+    body{
+        background-color:rgb(100,0, 227);
+    }
+}
